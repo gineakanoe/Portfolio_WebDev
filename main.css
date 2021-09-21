@@ -14,3 +14,79 @@
 .Travel-4-hex { color: #BF9765; }
 .Travel-5-hex { color: #D92B04; }
 
+
+/* text structure */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    color: #A422A8;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: #A422A8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #45858C;
+}
+
+
+
+/* Main Body */
+body {
+    margin: auto;
+    background-color: #2AA891;
+}
+
+
+/* Sections*/
+
+
+
+/* nav bar structure */
+.navBar {
+    display: flex;
+    background-color: #31F5D0;
+  
+}
+
+.mainLogo {
+    width: 50px;
+    margin: 8px 80px 0px 20px;
+}
+
+.navLinks {
+    
+}
+
+
+/* secondary layout structures */
+
+
+
+
+
+/* Tertiary Layout Structures */
+
+#about {
+    padding: 8px 40px 8px 0;
+}
+
+#portfolio {
+    padding: 8px 40px 8px 0;
+}
+
+#contactMe {
+    padding: 8px 40px 8px 0;
+}
