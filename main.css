@@ -27,6 +27,7 @@ h1 {
 h3 {
     display: flex;
     justify-content: center;
+    
     color: #A422A8;
 }
 
@@ -48,6 +49,7 @@ body {
     margin: auto;
     background-color: #2AA891;
 }
+
 
 
 /* Sections*/
