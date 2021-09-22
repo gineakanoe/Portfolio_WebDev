@@ -14,21 +14,35 @@
 .Travel-4-hex { color: #BF9765; }
 .Travel-5-hex { color: #D92B04; }
 
+/*! AI Layout Design Color Choices */
+.layout-1-hex { color: #3E7987; opacity: 65% }
+.layout-2-hex { color: #061B1E; }
+.layout-3-hex { color: #E9F3F4; }
+.layout-4-hex { color: #E89B1F; }
+
 
 /* text structure */
 
 h1 {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
-    color: #A422A8;
+    
+    color: #E89B1F;
 }
+
+h2 {
+
+}
+
 
 h3 {
     display: flex;
     justify-content: center;
-    
-    color: #A422A8;
+    color: #E89B1F;
+}
+
+h5 {
+    color: #E9F3F4;
 }
 
 ul {
@@ -39,7 +53,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #45858C;
+    color: #061B1E;
 }
 
 
@@ -47,20 +61,68 @@ a {
 /* Main Body */
 body {
     margin: auto;
-    background-color: #2AA891;
 }
 
-
+footer {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: #061B1E;
+}
 
 /* Sections*/
 
+.intro {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 865px;
+    background-color: #061B1E;
+}
 
+.aboutMe {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    height: 602px;
+    color: #061B1E;
+    background-color: #E9F3F4;
+}
+
+.projectsSection {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    height: 983px;
+    color: #E9F3F4;
+    background-color: #061B1E;
+}
+
+.contactSection {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    height: 565px;
+    color: #061B1E;
+    background-color: #E9F3F4;
+}
 
 /* nav bar structure */
 .navBar {
     display: flex;
-    background-color: #31F5D0;
-  
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #3E7987;
+    
+     
 }
 
 .mainLogo {
@@ -85,7 +147,11 @@ body {
     padding: 8px 40px 8px 0;
 }
 
-#portfolio {
+#projects {
+    padding: 8px 40px 8px 0;
+}
+
+#resume {
     padding: 8px 40px 8px 0;
 }
 
