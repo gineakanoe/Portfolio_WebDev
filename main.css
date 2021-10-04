@@ -26,11 +26,11 @@
 h1 {
     display: flex;
     justify-content: center;
-    
     color: #E89B1F;
 }
 
 h2 {
+    margin-top: 2rem;
 
 }
 
@@ -42,6 +42,7 @@ h3 {
 }
 
 h5 {
+    margin: auto;
     color: #E9F3F4;
 }
 
@@ -80,7 +81,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 865px;
+    height: 30rem;
     background-color: #061B1E;
 }
 
@@ -89,7 +90,7 @@ footer {
     margin: auto;
     justify-content: center;
     width: 100%;
-    height: 602px;
+    height: 40rem;
     color: #061B1E;
     background-color: #E9F3F4;
 }
@@ -99,18 +100,20 @@ footer {
     margin: auto;
     justify-content: center;
     width: 100%;
-    height: 983px;
+    height: 50rem;
     color: #E9F3F4;
     background-color: #061B1E;
 }
 
 .contactSection {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: auto;
-    justify-content: center;
     width: 100%;
-    height: 565px;
+    height: 50rem;
     color: #061B1E;
+    text-align: start;
     background-color: #E9F3F4;
 }
 
@@ -120,6 +123,7 @@ footer {
     position: fixed;
     justify-content: space-between;
     width: 100%;
+    background-color: transparent;
     background-color: #3E7987;
     
      
@@ -131,14 +135,20 @@ footer {
 }
 
 .navLinks {
-    
+    margin-top: 10px;
 }
 
 
 /* secondary layout structures */
 
+.cForm {
+    border: 1px solid #E89B1F;
+    padding: 2rem 5rem;
+}
 
-
+.socials {
+    margin-top: 3rem;
+}
 
 
 /* Tertiary Layout Structures */
@@ -157,4 +167,15 @@ footer {
 
 #contactMe {
     padding: 8px 40px 8px 0;
+}
+
+#message {
+    width: 40rem;
+}
+
+.submit {
+    
+    padding: 3px 18px 3px 18px;
+    background-color: #E89B1F;
+
 }
