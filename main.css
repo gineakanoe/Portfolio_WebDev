@@ -1,27 +1,13 @@
-/*! Sea Creatures Theme */
-/* Color Theme Swatches in Hex */
-.Sea-Creatures-1-hex { color: #A422A8; }
-.Sea-Creatures-2-hex { color: #F5D362; }
-.Sea-Creatures-3-hex { color: #F04AF5; }
-.Sea-Creatures-4-hex { color: #31F5D0; }
-.Sea-Creatures-5-hex { color: #2AA891; }
-
-/*! Travel Theme */
-/* Color Theme Swatches in Hex */
-.Travel-1-hex { color: #45858C; }
-.Travel-2-hex { color: #A0D9D9; }
-.Travel-3-hex { color: #D9C589; }
-.Travel-4-hex { color: #BF9765; }
-.Travel-5-hex { color: #D92B04; }
-
-/*! AI Layout Design Color Choices */
+/*
+! Layout Design Color Choices 
+ navBar background-color: #5579778c; 
 .layout-1-hex { color: #3E7987; opacity: 65% }
 .layout-2-hex { color: #061B1E; }
 .layout-3-hex { color: #E9F3F4; }
 .layout-4-hex { color: #E89B1F; }
+*/
 
-
-/* text structure */
+/*! text structure */
 
 h1 {
     display: flex;
@@ -31,6 +17,7 @@ h1 {
 
 h2 {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -60,12 +47,15 @@ ul {
 
 a {
     text-decoration: none;
-    color: #061B1E;
+    color: white;
 }
 
+label:after{
+    content:"*" ;
+    color:red   
+}
 
-
-/* Main Body */
+/*! Main Body */
 body {
     margin: auto;
 }
@@ -79,7 +69,7 @@ footer {
     background-color: #061B1E;
 }
 
-/* Sections*/
+/*! Sections*/
 
 .intro {
     display: flex;
@@ -96,6 +86,7 @@ footer {
     margin: auto;
     justify-content: center;
     width: 100%;
+    /*height: 100%*/
     height: 40rem;
     color: #061B1E;
     background-color: #E9F3F4;
@@ -107,7 +98,7 @@ footer {
     align-items: center;
     margin: auto;
     width: 100%;
-    height: 50rem;
+    height: 100%;
     color: #E9F3F4;
     background-color: #061B1E;
 }
@@ -118,22 +109,21 @@ footer {
     align-items: center;
     margin: auto;
     width: 100%;
-    height: 50rem;
+    height: 100%;
     color: #061B1E;
     text-align: start;
     background-color: #E9F3F4;
 }
 
-/* nav bar structure */
+/*! nav bar structure */
 .navBar {
     display: flex;
     position: fixed;
     justify-content: space-between;
     width: 100%;
     background-color: transparent;
-    background-color: #3E7987;
-    
-     
+    /*background-color: #3E7987;*/
+    background-color: #5579778c;        /*Transition color*/     
 }
 
 .mainLogo {
@@ -146,7 +136,7 @@ footer {
 }
 
 
-/* secondary layout structures */
+/*! secondary layout structures */
 
 .container1 {
     width: 10rem;
@@ -155,9 +145,15 @@ footer {
 
 }
 
+.project-cards {
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: 2px solid #E89B1F;
+    border-radius: 25px;
+    padding: 3rem 2rem 1rem 2rem;
 
-
-
+}
 
 .cForm {
     border: 1px solid #E89B1F;
@@ -166,11 +162,11 @@ footer {
 
 .socials {
     margin-top: 3rem;
-    
+    margin-bottom: 3rem;   
 }
 
 
-/* Tertiary Layout Structures */
+/*! Tertiary Layout Structures */
 
 #about {
     padding: 8px 40px 8px 0;
@@ -188,6 +184,24 @@ footer {
     padding: 8px 40px 8px 0;
 }
 
+
+.card {
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #061B1E;
+}
+
+.card:hover {
+    box-shadow: 2px 8px 45px rgba(216, 213, 213, 0.15);
+    transform: translate3D(0, -2px, 0);
+}
+
+.card-img-top {
+    border-radius: 25px 25px 0 0;
+}
+
 #message {
     width: 40rem;
 }
@@ -199,5 +213,17 @@ footer {
 
 }
 
+.icons {
+    display: flex;
+}
 
+.eachIcon {
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.eachIcon:hover {
+    box-shadow: 2px 8px 45px rgba(20, 20, 20, 0.15);
+    transform: translate3D(0, -2px, 0);
+}
 
