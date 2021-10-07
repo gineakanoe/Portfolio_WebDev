@@ -13,13 +13,13 @@
 <body>
     
         <div class="navBar">
-            <a href="#" target="_blank"><img class="mainLogo" src="./assets/logo_cut-square.png" alt="Logo"></a>
+            <a><img class="mainLogo" src="./assets/logo_cut-square.png" alt="Logo"></a>
             <nav class="navLinks">
                 <ul>
-                    <li id="about"><a href="#" target="_blank">About</a></li>
-                    <li id="projects"><a href="#" target="_blank">Projects</a></li>
-                    <li id="resume"><a href="#" target="_blank">Resume</a></li>
-                    <li id="contactMe"><a href="#" target="_blank">Contact Me</a></li>
+                    <li id="about"><a href="#aboutMe">About</a></li>
+                    <li id="projects"><a href="#projectsSection">Projects</a></li>
+                    <li id="resume"><a href="./assets/Resume-Ginea-Merrill.pdf" download>Download Resume</a></li>
+                    <li id="contactMe"><a href="#contactSection">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,15 +30,19 @@
     </div>
 
 
-    <div class="aboutMe">
+    <div class="aboutMe" id="aboutMe">
         <h2>About Me</h2>
-
+        <div class="meByte">
+          <p>Hello! My name is Ginea Merrill and Welcome to my web developement portfolio!</p>
+          <p>During collage, I worked at Best Buy in their camera department and really grew my passion for photography. I later found a new career in plaque making. I started on the production line, moved to typsetting, then visual design, and ultimately graphic design.</p>
+          <p>Now, I am starting my career as a Web Developer with the help of the Eleven Fifty Academy. Going from Graphic Designer to Web Developer has become a natural step for me, and I am excited for this new career path and for all the places this choice will take me.</p>
+        </div>
         <div class="skills"></div>
     </div>
  
     
 
-    <div class="projectsSection">
+    <div class="projectsSection" id="projectsSection">
         <h2>Projects</h2>
 
         <div class="project-cards">
@@ -47,8 +51,8 @@
                   <div class="card" style="width: 18rem;">
                     <img src="./assets/CSSCreatureChallange.PNG" class="card-img-top" alt="CSSCreatureChallange">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">CSS Creature</h5>
+                      <p class="card-text">A creature constructed with multiple shapes and colors through CSS</p>
                       <a href="https://codepen.io/gineakanoe/pen/RwgZwQj" target="_blank" class="stretched-link"></a>
                     </div>
                   </div>
@@ -57,8 +61,8 @@
                   <div class="card" style="width: 18rem;">
                     <img src="./assets/StaticLayoutKast.PNG" class="card-img-top" alt="StaticLayoutKast">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">Static Layout</h5>
+                      <p class="card-text">A static recreation of the kastaap.co website using HTML and CSS</p>
                       <a href="https://gineakanoe.github.io/StaticLayout/" target="_blank" class="stretched-link"></a>
                     </div>
                   </div>
@@ -67,8 +71,8 @@
                   <div class="card" style="width: 18rem;">
                     <img src="./assets/API2-StudioGhibli.PNG" class="card-img-top" alt="API2-StudioGhibli">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">Studio Ghinli API</h5>
+                      <p class="card-text">An API that fetches Films and People data from the Studio Ghibli API and displays them utilizing DOM manipulation to tie the HTML and JavaScript together</p>
                       <a href="https://gineakanoe.github.io/API-Studio-Ghibli-/" target="_blank" class="stretched-link"></a>
                     </div>
                   </div>
@@ -77,8 +81,8 @@
                   <div class="card" style="width: 18rem;">
                     <img src="./assets/API2-NASA.PNG" class="card-img-top" alt="API2-NASA">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">NASA APOD API</h5>
+                      <p class="card-text">An API that fetches the Astronomy Picture of the Day from the NASA API and displays that data through DOM manipulation and utilizing Bootstrap</p>
                       <a href="https://gkm-api2-nasa.web.app/" target="_blank" class="stretched-link"></a>
                     </div>
                   </div>
@@ -114,7 +118,7 @@
 
 
 
-    <div class="contactSection">
+    <div class="contactSection" id="contactSection">
         <h2>Contact Me</h2>
        
         <div class="cForm">

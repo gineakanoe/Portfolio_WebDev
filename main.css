@@ -7,6 +7,7 @@
 .layout-4-hex { color: #E89B1F; }
 */
 
+
 /*! text structure */
 
 h1 {
@@ -45,6 +46,10 @@ ul {
     padding: 0;
 }
 
+p {
+    font-size: 20px;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -58,6 +63,7 @@ label:after{
 /*! Main Body */
 body {
     margin: auto;
+    font-family: 'Oxygen', sans-serif;
 }
 
 footer {
@@ -83,11 +89,12 @@ footer {
 
 .aboutMe {
     display: flex;
-    margin: auto;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: auto;
     width: 100%;
-    /*height: 100%*/
-    height: 40rem;
+    height: 100%;
     color: #061B1E;
     background-color: #E9F3F4;
 }
@@ -143,6 +150,14 @@ footer {
     height: 10rem;
     border: 1px solid white;
 
+}
+
+.meByte {
+    border: 1px solid #E89B1F;
+    margin-bottom: 3rem;
+    padding: 2rem 5rem;
+    width: 60%;
+    text-align: center;
 }
 
 .project-cards {
