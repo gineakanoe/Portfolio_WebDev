@@ -152,12 +152,26 @@ footer {
 
 }
 
+.byteAndPhoto {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    flex-wrap: wrap;
+}
+
 .meByte {
     border: 1px solid #E89B1F;
-    margin-bottom: 3rem;
+    margin: auto;
     padding: 2rem 5rem;
     width: 60%;
     text-align: center;
+}
+
+.headshot {
+    display: flex;
+    max-width: 100%;
+    width: 400px;
+    max-height: 100%;
 }
 
 .project-cards {
