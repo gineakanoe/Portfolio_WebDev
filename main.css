@@ -184,6 +184,20 @@ footer {
 
 }
 
+.award-cards {
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: 2px solid #E89B1F;
+    border-radius: 25px;
+    padding: 3rem 2rem 1rem 2rem;
+
+}
+
+.card-title {
+    font-weight: bold;
+}
+
 .cForm {
     border: 1px solid #E89B1F;
     padding: 2rem 5rem;
